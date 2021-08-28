@@ -21,12 +21,8 @@ class SideMenu extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Caffet",
+                  "SpicyEar",
                   style: Theme.of(context).textTheme.headline5,
-                ),
-                Text(
-                  "Admin Pannel",
-                  style: Theme.of(context).textTheme.bodyText2,
                 ),
               ],
             ),
