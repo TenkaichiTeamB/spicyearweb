@@ -1,8 +1,8 @@
-import 'package:management/constants.dart';
-import 'package:management/controllers/MainIndexController.dart';
-import 'package:management/controllers/MenuController.dart';
-import 'package:management/controllers/SelectedInfoController.dart';
-import 'package:management/screens/main/main_screen.dart';
+import 'package:spicyearweb/constants.dart';
+import 'package:spicyearweb/controllers/MainIndexController.dart';
+import 'package:spicyearweb/controllers/MenuController.dart';
+import 'package:spicyearweb/controllers/SelectedInfoController.dart';
+import 'package:spicyearweb/screens/main/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';

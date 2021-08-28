@@ -1,4 +1,4 @@
-import 'package:management/models/RecentFile.dart';
+import 'package:spicyearweb/models/RecentFile.dart';
 import 'package:data_table_2/data_table_2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';

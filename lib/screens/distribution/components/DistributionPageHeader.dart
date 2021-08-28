@@ -1,5 +1,5 @@
-import 'package:management/controllers/MenuController.dart';
-import 'package:management/responsive.dart';
+import 'package:spicyearweb/controllers/MenuController.dart';
+import 'package:spicyearweb/responsive.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

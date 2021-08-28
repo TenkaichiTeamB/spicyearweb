@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:management/constants.dart';
-import 'package:management/screens/distribution/components/amount/DistributionAmount.dart';
-import 'package:management/screens/distribution/components/DistributionPageHeader.dart';
-import 'package:management/screens/distribution/components/plan/DistributionPlan.dart';
-import 'package:management/screens/distribution/components/status/DistributionStatus.dart';
-import 'package:management/screens/distribution/components/user/DistributionUser.dart';
+import 'package:spicyearweb/constants.dart';
+import 'package:spicyearweb/screens/distribution/components/amount/DistributionAmount.dart';
+import 'package:spicyearweb/screens/distribution/components/DistributionPageHeader.dart';
+import 'package:spicyearweb/screens/distribution/components/plan/DistributionPlan.dart';
+import 'package:spicyearweb/screens/distribution/components/status/DistributionStatus.dart';
+import 'package:spicyearweb/screens/distribution/components/user/DistributionUser.dart';
 
 class DistributionMain extends StatelessWidget {
   @override

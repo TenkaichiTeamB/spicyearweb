@@ -1,5 +1,5 @@
-import 'package:management/responsive.dart';
-import 'package:management/screens/dashboard/components/my_fields.dart';
+import 'package:spicyearweb/responsive.dart';
+import 'package:spicyearweb/screens/dashboard/components/my_fields.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants.dart';

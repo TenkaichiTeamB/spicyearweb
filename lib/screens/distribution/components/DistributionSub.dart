@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:management/constants.dart';
-import 'package:management/controllers/SelectedInfoController.dart';
-import 'package:management/responsive.dart';
+import 'package:spicyearweb/constants.dart';
+import 'package:spicyearweb/controllers/SelectedInfoController.dart';
+import 'package:spicyearweb/responsive.dart';
 import 'package:provider/provider.dart';
 // import 'package:management/screens/distribution/components/DistributionPageHeader.dart';
 

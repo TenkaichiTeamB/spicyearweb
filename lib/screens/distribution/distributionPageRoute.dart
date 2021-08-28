@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:management/controllers/SelectedInfoController.dart';
-import 'package:management/screens/distribution/components/DistributionMain.dart';
-import 'package:management/screens/distribution/components/DistributionSub.dart';
+import 'package:spicyearweb/controllers/SelectedInfoController.dart';
+import 'package:spicyearweb/screens/distribution/components/DistributionMain.dart';
+import 'package:spicyearweb/screens/distribution/components/DistributionSub.dart';
 import 'package:provider/provider.dart';
 
 // import '../../constants.dart';

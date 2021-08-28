@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:management/constants.dart';
-import 'package:management/controllers/SelectedInfoController.dart';
-import 'package:management/parts/button/BlueLineButton.dart';
+import 'package:spicyearweb/constants.dart';
+import 'package:spicyearweb/controllers/SelectedInfoController.dart';
+import 'package:spicyearweb/parts/button/BlueLineButton.dart';
 import 'package:provider/provider.dart';
 
 class DistributionPlan extends StatelessWidget {

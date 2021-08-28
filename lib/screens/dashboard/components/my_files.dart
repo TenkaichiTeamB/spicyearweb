@@ -1,6 +1,6 @@
-import 'package:management/responsive.dart';
+import 'package:spicyearweb/responsive.dart';
 import 'package:flutter/material.dart';
-import 'package:management/models/MyFiles.dart';
+import 'package:spicyearweb/models/MyFiles.dart';
 import '../../../constants.dart';
 import 'file_info_card.dart';
 

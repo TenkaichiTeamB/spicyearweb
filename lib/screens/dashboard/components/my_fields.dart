@@ -1,5 +1,5 @@
-import 'package:management/models/MyFiles.dart';
-import 'package:management/responsive.dart';
+import 'package:spicyearweb/models/MyFiles.dart';
+import 'package:spicyearweb/responsive.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants.dart';

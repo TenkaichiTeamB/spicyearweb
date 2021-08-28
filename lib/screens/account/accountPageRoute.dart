@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:management/screens/dashboard/components/header.dart';
+import 'package:spicyearweb/screens/dashboard/components/header.dart';
 
 import '../../constants.dart';
 

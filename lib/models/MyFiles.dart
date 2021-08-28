@@ -1,4 +1,4 @@
-import 'package:management/constants.dart';
+import 'package:spicyearweb/constants.dart';
 import 'package:flutter/material.dart';
 
 class CloudStorageInfo {

@@ -1,10 +1,10 @@
-import 'package:management/controllers/MainIndexController.dart';
-import 'package:management/controllers/MenuController.dart';
-import 'package:management/responsive.dart';
-import 'package:management/screens/account/accountPageRoute.dart';
-import 'package:management/screens/dashboard/dashboard_screen.dart';
+import 'package:spicyearweb/controllers/MainIndexController.dart';
+import 'package:spicyearweb/controllers/MenuController.dart';
+import 'package:spicyearweb/responsive.dart';
+import 'package:spicyearweb/screens/account/accountPageRoute.dart';
+import 'package:spicyearweb/screens/dashboard/dashboard_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:management/screens/distribution/distributionPageRoute.dart';
+import 'package:spicyearweb/screens/distribution/distributionPageRoute.dart';
 import 'package:provider/provider.dart';
 
 import 'components/side_menu.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:management/constants.dart';
+import 'package:spicyearweb/constants.dart';
 
 class BlueLineButton extends StatelessWidget {
   BlueLineButton(this.text);

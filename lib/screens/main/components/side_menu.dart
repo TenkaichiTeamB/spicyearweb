@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:management/controllers/MainIndexController.dart';
+import 'package:spicyearweb/controllers/MainIndexController.dart';
 import 'package:provider/provider.dart';
 
 class SideMenu extends StatelessWidget {

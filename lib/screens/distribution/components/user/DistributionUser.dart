@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:management/constants.dart';
-import 'package:management/controllers/SelectedInfoController.dart';
+import 'package:spicyearweb/constants.dart';
+import 'package:spicyearweb/controllers/SelectedInfoController.dart';
 import 'package:provider/provider.dart';
 
 class DistributionUser extends StatelessWidget {
