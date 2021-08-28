@@ -4,7 +4,6 @@ import 'package:spicyearweb/responsive.dart';
 import 'package:spicyearweb/screens/account/accountPageRoute.dart';
 import 'package:spicyearweb/screens/dashboard/dashboard_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:spicyearweb/screens/distribution/distributionPageRoute.dart';
 import 'package:provider/provider.dart';
 
 import 'components/side_menu.dart';
@@ -30,16 +29,16 @@ class MainScreen extends StatelessWidget {
               ),
 
             if (mainIndexController.index == 0)
-              Expanded(flex: 5, child: DashboardScreen()),
+              Expanded(flex: 5, child: AccountPageRoute()),
 
             if (mainIndexController.index == 1)
-              Expanded(flex: 5, child: AccountPageRoute()),
+              Expanded(flex: 5, child: DashboardScreen()),
 
             if (mainIndexController.index == 2)
-              Expanded(flex: 5, child: DistributionPageRoute()),
+              Expanded(flex: 5, child: AccountPageRoute()),
 
             if (mainIndexController.index == 3)
-              Expanded(flex: 5, child: AccountPageRoute()),
+              Expanded(flex: 5, child: DashboardScreen()),
 
             if (mainIndexController.index == 4)
               Expanded(flex: 5, child: AccountPageRoute()),

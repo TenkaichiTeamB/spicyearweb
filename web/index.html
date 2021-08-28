@@ -94,5 +94,33 @@
       loadMainDartJs();
     }
   </script>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAFnLazLSCpmwEndTpyDnSl-aPLWnl1Afc",
+    authDomain: "spicyear.firebaseapp.com",
+    projectId: "spicyear",
+    storageBucket: "spicyear.appspot.com",
+    messagingSenderId: "443322651359",
+    appId: "1:443322651359:web:a84f514d9d11006ebf0f6a"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script> 
+
+<script src="main.dart.js" type="application/javascript"></script>
+
 </body>
 </html>
