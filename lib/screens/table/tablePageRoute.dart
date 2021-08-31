@@ -10,14 +10,35 @@ class TablePageRoute extends StatelessWidget {
       child: SingleChildScrollView(
         padding: EdgeInsets.all(defaultPadding),
         child: Column(
-          children: [tableTitle(), tableBuilder()],
+          children: [addDataButton(), tableTitle(), tableBuilder()],
         ),
       ),
     );
   }
 
+  Widget addDataButton() {
+    return TextButton(
+        onPressed: () => {
+              FirebaseFirestore.instance
+                  .collection('test_collection')
+                  .doc('RL7luMQJS0I2zR4fhHN8')
+                  .update({
+                'data': FieldValue.arrayUnion([
+                  {
+                    "timestamp": DateTime.now(),
+                    "geopoint": GeoPoint(53.483959, -2.244644),
+                    "bodytemp": 37.2,
+                    "heartbeat": 37.2,
+                  }
+                ])
+              })
+            },
+        child: Text('Push to Add Dummy Data'));
+  }
+
   Widget tableTitle() {
     return Row(children: [
+      Spacer(),
       Text('時刻'),
       Spacer(),
       Text('緯度'),
@@ -53,6 +74,7 @@ class TablePageRoute extends StatelessWidget {
                 //   1: FlexColumnWidth(1.0),
                 //   2: FixedColumnWidth(100.0),
                 // },
+
                 defaultVerticalAlignment: TableCellVerticalAlignment.top,
                 children: snapshotData
                     .map((element) => TableRow(children: [
