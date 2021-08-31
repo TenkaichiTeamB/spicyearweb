@@ -28,7 +28,7 @@ class SideMenu extends StatelessWidget {
             ),
           ),
           DrawerListTile(
-            title: "Home",
+            title: "Map",
             svgSrc: "assets/icons/menu_dashbord.svg",
             press: () {
               // IndexstateClass.changepage
@@ -36,31 +36,25 @@ class SideMenu extends StatelessWidget {
             },
           ),
           DrawerListTile(
-            title: "Account",
+            title: "Table",
             svgSrc: "assets/icons/menu_tran.svg",
             press: () {
               mainIndexController.setIndex(1);
             },
           ),
           DrawerListTile(
-            title: "Distribution",
+            title: "Statistics",
             svgSrc: "assets/icons/menu_task.svg",
             press: () {
               mainIndexController.setIndex(2);
             },
           ),
+
           DrawerListTile(
-            title: "Notification",
-            svgSrc: "assets/icons/menu_doc.svg",
-            press: () {
-              mainIndexController.setIndex(3);
-            },
-          ),
-          DrawerListTile(
-            title: "Accounting",
+            title: "Setting",
             svgSrc: "assets/icons/menu_store.svg",
             press: () {
-              mainIndexController.setIndex(4);
+              mainIndexController.setIndex(3);
             },
           ),
           // DrawerListTile(

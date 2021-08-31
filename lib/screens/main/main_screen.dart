@@ -1,10 +1,12 @@
 import 'package:spicyearweb/controllers/MainIndexController.dart';
 import 'package:spicyearweb/controllers/MenuController.dart';
 import 'package:spicyearweb/responsive.dart';
-import 'package:spicyearweb/screens/account/accountPageRoute.dart';
-import 'package:spicyearweb/screens/dashboard/dashboard_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:spicyearweb/screens/map/MapPageRoute.dart';
+import 'package:spicyearweb/screens/setting/SettingPageRoute.dart';
+import 'package:spicyearweb/screens/statistics/StatisticsPageRoute.dart';
+import 'package:spicyearweb/screens/table/tablePageRoute.dart';
 
 import 'components/side_menu.dart';
 
@@ -29,19 +31,16 @@ class MainScreen extends StatelessWidget {
               ),
 
             if (mainIndexController.index == 0)
-              Expanded(flex: 5, child: AccountPageRoute()),
+              Expanded(flex: 5, child: MapPageRoute()),
 
             if (mainIndexController.index == 1)
-              Expanded(flex: 5, child: DashboardScreen()),
+              Expanded(flex: 5, child: TablePageRoute()),
 
             if (mainIndexController.index == 2)
-              Expanded(flex: 5, child: AccountPageRoute()),
+              Expanded(flex: 5, child: StatisticsPageRoute()),
 
             if (mainIndexController.index == 3)
-              Expanded(flex: 5, child: DashboardScreen()),
-
-            if (mainIndexController.index == 4)
-              Expanded(flex: 5, child: AccountPageRoute()),
+              Expanded(flex: 5, child: SettingPageRoute()),
           ]),
         ));
   }
