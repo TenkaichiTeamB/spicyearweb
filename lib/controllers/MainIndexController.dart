@@ -6,7 +6,7 @@ class MainIndexController extends ChangeNotifier {
   GlobalKey<ScaffoldState> get scaffoldKey => _scaffoldKey;
 
   // 最初のページ
-  int index = 2;
+  int index = 0;
 
   void setIndex(int willSetIndex) {
     index = willSetIndex;

@@ -9,9 +9,7 @@ class MapPageRoute extends StatelessWidget {
     return SafeArea(
       child: SingleChildScrollView(
         padding: EdgeInsets.all(defaultPadding),
-        child: Column(
-          children: [Text("MapPageRoute")],
-        ),
+        child: Image.asset('assets/heatmap.jpg'),
       ),
     );
   }
