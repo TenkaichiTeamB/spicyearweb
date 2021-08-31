@@ -10,11 +10,8 @@ class StatisticsPageRoute extends StatelessWidget {
       child: SingleChildScrollView(
         padding: EdgeInsets.all(defaultPadding),
         child: Column(
-          children: [
-            Text("StatisticsPageRoute"),
-            Image.network(
-                'https://cdn.dribbble.com/users/883236/screenshots/12223400/media/8b186ee87db063398cb275fd76ef4812.png?compress=1&resize=1600x1200')
-          ],
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [Image.asset('assets/statistics.jpeg', fit: BoxFit.fill)],
         ),
       ),
     );

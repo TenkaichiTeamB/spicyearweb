@@ -11,11 +11,7 @@ class SettingPageRoute extends StatelessWidget {
         padding: EdgeInsets.all(defaultPadding),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            // Text("SettingPageRoute"),
-            Image.network(
-                'https://assets.uigarage.net/content/uploads/2016/03/tumblr_o3lh20LSgH1ul8y65o1_1280-1.jpg')
-          ],
+          children: [Image.asset('assets/setting.png', fit: BoxFit.fill)],
         ),
       ),
     );

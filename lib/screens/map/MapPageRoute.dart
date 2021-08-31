@@ -14,10 +14,7 @@ class MapPageRoute extends StatelessWidget {
             children: [
               Image.asset('assets/heatmap.png', fit: BoxFit.fill),
             ],
-          )
-          // Image.network(
-          //     'https://www.ascp.com/resource/resmgr/images/heatmap/US_Map_November_2020.png')
-          ),
+          )),
     );
   }
 }
