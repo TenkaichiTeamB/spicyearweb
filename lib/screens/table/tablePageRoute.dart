@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
@@ -26,9 +28,10 @@ class TablePageRoute extends StatelessWidget {
                 'data': FieldValue.arrayUnion([
                   {
                     "timestamp": DateTime.now(),
-                    "geopoint": GeoPoint(53.483959, -2.244644),
-                    "bodytemp": 37.2,
-                    "heartbeat": 37.2,
+                    "geopoint": GeoPoint(
+                        Random().nextDouble() * 90, Random().nextDouble() * 90),
+                    "bodytemp": Random().nextDouble() + 36.0,
+                    "heartbeat": Random().nextInt(20) + 80,
                   }
                 ])
               })
