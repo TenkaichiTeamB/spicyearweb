@@ -1,5 +1,5 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-// import 'package:spicyearweb/screens/dashboard/components/header.dart';
 
 import '../../constants.dart';
 
@@ -10,9 +10,25 @@ class TablePageRoute extends StatelessWidget {
       child: SingleChildScrollView(
         padding: EdgeInsets.all(defaultPadding),
         child: Column(
-          children: [Text("TablePage")],
+          children: [Text("TablePage"), tableBuilder()],
         ),
       ),
     );
+  }
+
+  Widget tableBuilder() {
+    return StreamBuilder<DocumentSnapshot>(
+        stream: FirebaseFirestore.instance
+            .collection('test_collection')
+            .doc('RL7luMQJS0I2zR4fhHN8')
+            .snapshots(),
+        builder:
+            (BuildContext context, AsyncSnapshot<DocumentSnapshot> snapshot) {
+          if (!snapshot.hasData) {
+            return const Text('Loading...');
+          } else {
+            return Text("array" + snapshot.data!['data'].toString());
+          }
+        });
   }
 }

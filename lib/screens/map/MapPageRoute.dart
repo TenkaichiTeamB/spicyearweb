@@ -9,7 +9,10 @@ class MapPageRoute extends StatelessWidget {
     return SafeArea(
       child: SingleChildScrollView(
         padding: EdgeInsets.all(defaultPadding),
-        child: Image.asset('assets/heatmap.jpg'),
+        child:
+            // Image.network(
+            //     'https://www.ascp.com/resource/resmgr/images/heatmap/US_Map_November_2020.png')
+            Image.asset('assets/heatmap.jpg'),
       ),
     );
   }
