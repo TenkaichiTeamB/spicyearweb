@@ -10,6 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+
       # -- ここから追記部分！ -- #
       # Flutter のインストール clone がはやい
       - name: Install Flutter
@@ -26,6 +27,8 @@ jobs:
       # -- ここまで追記部分！ -- #
       # 解説:
       #   firebase-hosting-merge.yml のプルリクエストバージョンなのでやることは同じ
+
+
 
       - run: flutter build web
       - uses: FirebaseExtended/action-hosting-deploy@v0
