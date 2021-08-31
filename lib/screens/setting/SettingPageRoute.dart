@@ -10,7 +10,12 @@ class SettingPageRoute extends StatelessWidget {
       child: SingleChildScrollView(
         padding: EdgeInsets.all(defaultPadding),
         child: Column(
-          children: [Text("SettingPageRoute")],
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            // Text("SettingPageRoute"),
+            Image.network(
+                'https://assets.uigarage.net/content/uploads/2016/03/tumblr_o3lh20LSgH1ul8y65o1_1280-1.jpg')
+          ],
         ),
       ),
     );
