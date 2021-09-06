@@ -50,8 +50,8 @@ class TablePageRoute extends StatelessWidget {
       Spacer(),
       Text('体温'),
       Spacer(),
-      Text('心拍数'),
-      Spacer(),
+      // Text('心拍数'),
+      // Spacer(),
     ]);
   }
 
@@ -85,7 +85,7 @@ class TablePageRoute extends StatelessWidget {
                           Text(element['geopoint'].latitude.toString()),
                           Text(element['geopoint'].longitude.toString()),
                           Text(element['bodytemp'].toString()),
-                          Text(element['heartbeat'].toString()),
+                          // Text(element['heartbeat'].toString()),
                         ]))
                     .toList());
           }
